@@ -32,7 +32,7 @@ void loop(void) {
   if (p.z > MINPRESSURE && p.z < MAXPRESSURE) {
      Serial.print("X = "); Serial.print(p.x);
      Serial.print("\tY = "); Serial.print(p.y);
-     Serial.print("\tPressure = "); Serial.println(p.z);
+     Serial.print("\tPresiune = "); Serial.println(p.z);
   }
 }
 //ceva schimbat
